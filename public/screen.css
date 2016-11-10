@@ -1,8 +1,67 @@
+
 html {
   text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
+  background-color: snow;
+}
+nav li{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.head {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 70px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+q {
+  color: black;
+}
+figcaption {
+  font-size: 1em;
+  font-style: italic;
+  color: lightgrey;
+  text-align: right;
+
+}
+
+img {
+  border-width: thin;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 2%;
+
+}
+/*whole navigational bar technique*/
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 1em;
+background-color: #f3f3f3;
+}
+
+nav ul {
+display: flex;
+list-style-type: none;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 16px;
+  padding: 0 15px;
 }
